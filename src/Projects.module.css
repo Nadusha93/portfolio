@@ -1,0 +1,47 @@
+.projects{
+    height: 100vh;
+    background-color: #252527;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    /*border: 1px solid;*/
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+.projectsWrapper{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.project{
+    width:300px;
+    background-color: #ababab;
+    display: flex;
+    flex-direction: column;
+}
+.projectImg{
+    height: 300px;
+    background-color: #eee69f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnShow{
+    height: 150px;
+    width: 50px;
+    background-color: #abd28f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1252px){
+    projectsWrapper{
+        justify-content: center;
+    }
+}
